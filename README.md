@@ -42,7 +42,7 @@ The projects use Entity Framework (Core) for OR mapping and database connection.
 - Create your first migration for the database setup using ```Add-Migration InitialCreate```
 - Run ```Update-Database``` to create your database tables
 - You can make sure your database tables have been created by using Server Explorer in Visual Studio
-## Create your QnA maker know bases
+## Create your QnA maker knowledge bases
 - Sign-on for [QnA maker](https://qnamaker.ai/) and create your knowledge bases / service. You will need one service for handling small talk like "How old are you" and one service for each topic / field of knowledge your boot should support
 ### Add your QnA maker services to your bot
 - With the portal project set as the start project launch the application from Visual Studio and navigate to "Manage Services"
