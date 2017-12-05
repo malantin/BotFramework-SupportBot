@@ -50,6 +50,9 @@ The projects use Entity Framework (Core) for OR mapping and database connection.
 - You will find this information QnA maker site after publishing you QnA maker service. The ID can be found in the POST url (/knowledgebases/**e25bbb2c-61b4-4371-806b-e3d626e9274f**/generateAnswer), the key right below. You can also click on you name in the QnA maker portal and select "Subscription Keys".
 - Enter the information for your Smalltalk service into the ```SmallTalkDialog.cs``` file of the bot project. This is currently hardcoded here as it is not changed that frequently.
 
+### Use the translation dialog
+- If you want to offer your users translation services through you bot, you will have to get a Bing Translator key through your Azure Subsciption and add it to your TranslateDialog.cs file. Currently the key is saved in the source.
+
 ### Run you bot locally and test it with the bot framework emulator
 - Get the [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator) and install it
 - Make the SupportBot.Bot project the start project and run it locally from Visual Studio
@@ -74,6 +77,8 @@ The projects use Entity Framework (Core) for OR mapping and database connection.
 ### Test your bot and Add channels
 - You can now test your bot right on the bot framework portal and  add new channel here.
 - If you want to include the bot into your website or intranet, have a look at the [Web Chat project on Github](https://github.com/Microsoft/BotFramework-WebChat) or the [Skype Web Control](https://dev.skype.com/webcontrol).
+
+
 
 
 
