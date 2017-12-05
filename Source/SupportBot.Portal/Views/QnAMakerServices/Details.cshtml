@@ -1,0 +1,49 @@
+﻿@model SupportBot.Services.QnAMakerService
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>QnAMakerService</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ServiceId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ServiceId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BaseAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BaseAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Key)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Key)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DisplayName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DisplayName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DisplayCategory)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DisplayCategory)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

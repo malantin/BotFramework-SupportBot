@@ -1,0 +1,44 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "SupportChatBotLUIS",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Categories"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Overview"
+    },
+    {
+      "name": "Question"
+    },
+    {
+      "name": "Synonym"
+    },
+    {
+      "name": "Translation"
+    },
+    {
+      "name": "Weather"
+    },
+    {
+      "name": "Wiki"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": []
+}

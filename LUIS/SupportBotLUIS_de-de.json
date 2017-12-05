@@ -1,0 +1,780 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "SupportChatBotLUIS",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Categories"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Overview"
+    },
+    {
+      "name": "Question"
+    },
+    {
+      "name": "Synonym"
+    },
+    {
+      "name": "Translation"
+    },
+    {
+      "name": "Weather"
+    },
+    {
+      "name": "Wiki"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "witz",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hallo",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "guten morgen",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "guten tag",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "salut",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "ciao",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hilfe",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "test",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wer bist du?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie alt bist du?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wo wohnst du?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ich brauche hilfe!",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "ich habe eine frage",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "ich brauche hilfe",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "moin",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "tagchen",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "servus",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hallöle",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "tag",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "huhu",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "grüß gott",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "bist du ein mensch",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie wird das wetter heute?",
+      "intent": "Weather",
+      "entities": []
+    },
+    {
+      "text": "bist du verheiratet?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hilf mir",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "ich liebe dich",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kann ich dich etwas fragen?",
+      "intent": "Categories",
+      "entities": []
+    },
+    {
+      "text": "ich habe eine frage.",
+      "intent": "Categories",
+      "entities": []
+    },
+    {
+      "text": "wer kann mir bei einem skype for business problem helfen?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wann ist das surface hub verfügbar?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "warum verwenden wir surface hub?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wieso funktioniert skype for business nicht?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "was ist skype for business?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie benutze ich das surface hub?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "ich brauche den wiki artikel zu einem thema.",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "kannst du für mich informationen aus wikipedia suchen?",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "ich benötige informationen aus wikipedia.",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "gibt es heute regen?",
+      "intent": "Weather",
+      "entities": []
+    },
+    {
+      "text": "soll es regnen?",
+      "intent": "Weather",
+      "entities": []
+    },
+    {
+      "text": "wie sieht der forecast aus?",
+      "intent": "Weather",
+      "entities": []
+    },
+    {
+      "text": "was ist die wettervorhersage?",
+      "intent": "Weather",
+      "entities": []
+    },
+    {
+      "text": "scheint heute die sonne?",
+      "intent": "Weather",
+      "entities": []
+    },
+    {
+      "text": "zeig mir den speiseplan.",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "was gibt es heute in der kantine?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "was gibt es heute zu essen?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "heyho",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "du bist blöd",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wer ist dein vater?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wer sind deine eltern?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "warum ist banane krumm?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich technische hilfe?",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "du bist lustig",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "warum ist die banane krumm?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "was pi?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich das surface handbuch?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie geht sdir",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "kennst du siri?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ich habe eine frage zu word",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich das surface hub?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "ich habe hunger",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wo wohnt der osterhaase",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie speichere ich ein word dokument als pdf",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie heißt der bürgermeister von wesel?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "excel",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "was sind die tastenkombinationen für windows 10",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie komme ich in windows 10 zu den einstellungen",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "passwort zurücksetzen",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "frage zu excel",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "tastenkürzel windows 10",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich das handbuch zu surface hub?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "skype",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "hallo siri",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "ich habe eine frage zu word!",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "erzähle mir einen witz",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "was hast du an",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wer hat dich gemacht?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wann kommt der weihnachtsmann?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "warum sind bananen krumm?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "darf ich meinen laptop mit nach hause nehmen",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "für wen arbeitest du",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie speichere ich ein word dokumetn als pdf?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "sage mir deine antworten",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie intelligent bist du?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie mache ich einen passwort reset?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich das benutzerhandbuch?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "tastenkombinationen windows 10",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "shortcuts windows 10",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "ich habe eine word frage",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wer mit ist dein vater?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie instaliere ich bei windows 10 eine app?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "windows 10 tasten",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie verbinde ich mehrere zellen?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "ok google",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "surface hub",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "mdm",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "ola!",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "wie kontaktiere ich den service desk?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "mensch",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich das surface hub benutzerhandbuch?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie läuft es?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "bist du böse",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wikipedia",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "wetter heute",
+      "intent": "Weather",
+      "entities": []
+    },
+    {
+      "text": "wie erstelle ich eine excel makro?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "technische frage",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "hey siri",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "wer sind deinen eltern?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie richte ich einen ad user ein?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie ändere ich mein passwort?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "windows 10",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "einladen",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wo wohnt der weihnachstmann?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "etwas in wikipedia suchen",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "was bist du ?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie schwer ist die erde",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "suche ein synonym für mich",
+      "intent": "Synonym",
+      "entities": []
+    },
+    {
+      "text": "synonym nachschlagen",
+      "intent": "Synonym",
+      "entities": []
+    },
+    {
+      "text": "windows frage",
+      "intent": "Overview",
+      "entities": []
+    },
+    {
+      "text": "übersetze mir",
+      "intent": "Translation",
+      "entities": []
+    },
+    {
+      "text": "übersetzen",
+      "intent": "Translation",
+      "entities": []
+    },
+    {
+      "text": "kannst du übersetzen",
+      "intent": "Translation",
+      "entities": []
+    },
+    {
+      "text": "ich möchte übersetzen",
+      "intent": "Translation",
+      "entities": []
+    },
+    {
+      "text": "ich möchte was übersetzen",
+      "intent": "Translation",
+      "entities": []
+    },
+    {
+      "text": "ich möchte etwas übersetzen",
+      "intent": "Translation",
+      "entities": []
+    },
+    {
+      "text": "finde mir ein synonym",
+      "intent": "Synonym",
+      "entities": []
+    },
+    {
+      "text": "ich möchte etwas recherchieren",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "wie kann ich in outlook sehen, ob jemand verfügbar ist?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "was ist ein sverweis?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "wie setze ich mein passwort zurück",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "ich möchte einen serienbrief in word erstellen",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich die powerpoint volagen=",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wo finde ich das handbuch zum surface hub?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "wie ändere ich meinen windows hintergrund?",
+      "intent": "Question",
+      "entities": []
+    },
+    {
+      "text": "ola",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "tach auch",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "gibt es eine alternative für ein wort",
+      "intent": "Synonym",
+      "entities": []
+    },
+    {
+      "text": "ich suche ein anderes wort für",
+      "intent": "Synonym",
+      "entities": []
+    },
+    {
+      "text": "ich suche synonyme",
+      "intent": "Synonym",
+      "entities": []
+    },
+    {
+      "text": "bitte recherchiere was für mich",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "etwas im lexikon nachschlagen",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "suche etwas in lexikon",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "etwas auf wikipedia suchen",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "lexikon",
+      "intent": "Wiki",
+      "entities": []
+    },
+    {
+      "text": "suche etwas in lexikon",
+      "intent": "Wiki",
+      "entities": []
+    }
+  ]
+}

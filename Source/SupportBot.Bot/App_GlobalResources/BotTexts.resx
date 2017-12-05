@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="CategorySelectionQuestion" xml:space="preserve">
+    <value>I can support you for the following topics:</value>
+  </data>
+  <data name="ClickLinkForSupportMail" xml:space="preserve">
+    <value>I already create the link to our human support team. Please click on the link to open the email an check the text before sending it. Event I make mistakes from time to time. Here is the link:</value>
+  </data>
+  <data name="DatebaseNotAvailable" xml:space="preserve">
+    <value>I could not connect to my database. I hope this problem will be solved soon.</value>
+  </data>
+  <data name="EscalateToSupportQuestion" xml:space="preserve">
+    <value>Do you want me to remember that question and prepare an email to support?</value>
+  </data>
+  <data name="ExperienceRatingQuestion" xml:space="preserve">
+    <value>How would you rate my supprt on a scale from 1 (really bad) to 9 (perfect)?</value>
+  </data>
+  <data name="FeedbackIntro" xml:space="preserve">
+    <value>I need your feedback to improve.</value>
+  </data>
+  <data name="FeedbackNotSaved" xml:space="preserve">
+    <value>Thanks for you feedback.</value>
+  </data>
+  <data name="FeedbackNoWrongNumber" xml:space="preserve">
+    <value>Please use a number from 1 (really bad) to 9 (perfect) for your feedback. Thank you!</value>
+  </data>
+  <data name="FeedbackQuestion" xml:space="preserve">
+    <value>I there further feedback you would like to provide?</value>
+  </data>
+  <data name="FeedbackSaved" xml:space="preserve">
+    <value>I saved you feedback. Thank you.</value>
+  </data>
+  <data name="FoundMoreAnswers" xml:space="preserve">
+    <value>I fould more answer that might help. This is what I found:</value>
+  </data>
+  <data name="FoundQnAAnswer" xml:space="preserve">
+    <value>I found the following answer in my database:</value>
+  </data>
+  <data name="GiveFeedbackQuesiton" xml:space="preserve">
+    <value>Do you want to help me by providing feedback?</value>
+  </data>
+  <data name="GladToHelp" xml:space="preserve">
+    <value>Great. Always happy to help.</value>
+  </data>
+  <data name="GreetingGeneral" xml:space="preserve">
+    <value>Hello {0}!</value>
+  </data>
+  <data name="Misc" xml:space="preserve">
+    <value>Something else</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoAnswerSmallTalk" xml:space="preserve">
+    <value>Ok, I did not expect that. I prefer not to answer to that one.</value>
+  </data>
+  <data name="NoFeedbackReply" xml:space="preserve">
+    <value>No problem. Maybe next time.</value>
+  </data>
+  <data name="NoQnAReply" xml:space="preserve">
+    <value>I don't have an answer for that, but I have amazing human colleagues who are always happy to help.</value>
+  </data>
+  <data name="NoThesaurusReply" xml:space="preserve">
+    <value>I could not find any information on that. Maybe Open Thesaurus doesn't answer right now or you are looking for something really special.</value>
+  </data>
+  <data name="NoWikiReply" xml:space="preserve">
+    <value>I could not find any information on that. Maybe Wikipedia doesn't answer right now or you are looking for something really special.</value>
+  </data>
+  <data name="OpenSupportMailText" xml:space="preserve">
+    <value>Email to support</value>
+  </data>
+  <data name="PleaseUseButtons" xml:space="preserve">
+    <value>Please use the buttons for your reply.</value>
+  </data>
+  <data name="ProblemSolvedQuestion" xml:space="preserve">
+    <value>Does this answer your question?</value>
+  </data>
+  <data name="QnAQuestion" xml:space="preserve">
+    <value>How can I help you with {0}?</value>
+  </data>
+  <data name="QuestionNotSaved" xml:space="preserve">
+    <value>Sorry, but I couldn't save you question.</value>
+  </data>
+  <data name="QuestionSaved" xml:space="preserve">
+    <value>I will remember your question and will try to add an answer to my knowledge base as soon as possible. Sorry about the inconvenience.</value>
+  </data>
+  <data name="RootDialogCompleted" xml:space="preserve">
+    <value>How can I help next?</value>
+  </data>
+  <data name="SearchingDatabases" xml:space="preserve">
+    <value>I am looking for an answer. Give me a few seconds to think.</value>
+  </data>
+  <data name="SearchThesaurusTerm" xml:space="preserve">
+    <value>Look up synonym</value>
+  </data>
+  <data name="SearchWikipediaTerm" xml:space="preserve">
+    <value>Use encyclopedia</value>
+  </data>
+  <data name="SupportMailBody" xml:space="preserve">
+    <value>This%20is%20an%20auto%20generated%20eMail%20from%20SupportBot.%0D%0A%0D%0A{0}Question:%20{1}%0D%0A%0D%0AWith%20best%20regards%20</value>
+  </data>
+  <data name="SupportMailSubject" xml:space="preserve">
+    <value>Support Request {0}</value>
+  </data>
+  <data name="TechnicalProblemWithService" xml:space="preserve">
+    <value>One of my services doesn't talk to me right now or there has been some other problem. I hope I can solve that problem soon.</value>
+  </data>
+  <data name="TechnicalQuestion" xml:space="preserve">
+    <value>IT Question</value>
+  </data>
+  <data name="TechnicalTopicQuestion" xml:space="preserve">
+    <value>For which topic do you need help?</value>
+  </data>
+  <data name="ThesaurusSearchQuestion" xml:space="preserve">
+    <value>For which term do you want to find a synonym?</value>
+  </data>
+  <data name="WikiSearchQuestion" xml:space="preserve">
+    <value>Which term do you want to look up in the encyclopedia?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="AfterTranslationQuestion" xml:space="preserve">
+    <value>Do you want to translate something else?</value>
+  </data>
+  <data name="AnotherWikiSearchQuestion" xml:space="preserve">
+    <value>Do you want me to look up something for you?</value>
+  </data>
+  <data name="CouldNotTranslateText" xml:space="preserve">
+    <value>I am very sorry, but I could not translate the text.</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Spansih</value>
+  </data>
+  <data name="TextFromTranslation" xml:space="preserve">
+    <value>Here is the translation:</value>
+  </data>
+  <data name="TranslateInDifferentLanguageOption" xml:space="preserve">
+    <value>Translate into a different language</value>
+  </data>
+  <data name="TranslateSameLanguageOption" xml:space="preserve">
+    <value>Translate into the same language</value>
+  </data>
+  <data name="TranslateTerm" xml:space="preserve">
+    <value>Translate text</value>
+  </data>
+  <data name="TranslationLanguageQuestion" xml:space="preserve">
+    <value>Which language do you want to translate to?</value>
+  </data>
+  <data name="WelcomeText" xml:space="preserve">
+    <value>Hello, I am your SupportBot. I can answer IT question, look up things and translate text. I can even answer some fun question.</value>
+  </data>
+  <data name="WhatToTranslateQuestion" xml:space="preserve">
+    <value>What do you want me to translate into {0}?</value>
+  </data>
+  <data name="WelcomeTextCategories" xml:space="preserve">
+    <value>Hello, I am SupportBot and can help you with the following topics:</value>
+  </data>
+</root>
