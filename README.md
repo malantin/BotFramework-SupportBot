@@ -47,7 +47,7 @@ The projects use Entity Framework (Core) for OR mapping and database connection.
 ### Add your QnA maker services to your bot
 - With the portal project set as the start project launch the application from Visual Studio and navigate to "Manage Services"
 - This is where you can add your [QnA maker](https://qnamaker.ai/) services for topics / technologies your bot will support. You will need the ID for the service, a subscription key and a name the bot will use to present that knowledge base to the user. You will also need the base address for your service, which specifies the location and API version. Currently the bot works with V2.0 of QnA maker API. Please add a tailing '```/```' to the ```BaseAddress```
-- You will find this information QnA maker site after publishing you QnA maker service. The ID can be found in the POST url (/knowledgebases/**e25bbb2c-61b4-4371-806b-e3d626e9274f**/generateAnswer), the key right below. You can also click on you name in the QnA maker portal and select "Subscription Keys".
+- You will find this information QnA maker site after publishing you QnA maker service. The ID can be found in the POST url (/knowledgebases/**e25bbb2c-61b4-9862-806b-e3d626e9274f**/generateAnswer), the key right below. You can also click on you name in the QnA maker portal and select "Subscription Keys".
 - Enter the information for your Smalltalk service into the ```SmallTalkDialog.cs``` file of the bot project. This is currently hardcoded here as it is not changed that frequently.
 
 ### Use the translation dialog
