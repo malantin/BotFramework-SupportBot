@@ -285,4 +285,13 @@
   <data name="WelcomeTextCategories" xml:space="preserve">
     <value>Hello, I am SupportBot and can help you with the following topics:</value>
   </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="NeedHelpQuestion" xml:space="preserve">
+    <value>Need assisstance?</value>
+  </data>
+  <data name="HelpHint" xml:space="preserve">
+    <value>You can ask for help anytime, by typing 'help'.</value>
+  </data>
 </root>

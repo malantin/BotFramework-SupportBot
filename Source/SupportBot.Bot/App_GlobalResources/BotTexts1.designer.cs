@@ -250,6 +250,24 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Help.
+        /// </summary>
+        internal static string Help {
+            get {
+                return ResourceManager.GetString("Help", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You can ask for help anytime, by typing &apos;help&apos;..
+        /// </summary>
+        internal static string HelpHint {
+            get {
+                return ResourceManager.GetString("HelpHint", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Italian.
         /// </summary>
         internal static string Italian {
@@ -264,6 +282,15 @@ namespace Resources {
         internal static string Misc {
             get {
                 return ResourceManager.GetString("Misc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Need assisstance?.
+        /// </summary>
+        internal static string NeedHelpQuestion {
+            get {
+                return ResourceManager.GetString("NeedHelpQuestion", resourceCulture);
             }
         }
         

@@ -54,12 +54,13 @@ namespace SupportBot
                 if (botnames.Contains(newuser))
                 {
                     // Create a message activity to send to the conversation
-                    Activity m = message.CreateReply();
-                    m.Text = Resources.BotTexts.WelcomeTextCategories;
+                    Activity categoriesMessage = message.CreateReply();
+                    Activity helpHintMessage = message.CreateReply();
+                    helpHintMessage.Text = Resources.BotTexts.HelpHint;
 
                     // We want to provide buttons for the user to pick between the different bot capabilities. 
                     // To create buttons, we use a Hero Card with a number of buttons.
-                    m.AddHeroCard<string>(string.Empty, new List<string>() { Resources.BotTexts.TechnicalQuestion, Resources.BotTexts.SearchWikipediaTerm, Resources.BotTexts.SearchThesaurusTerm, Resources.BotTexts.TranslateTerm });
+                    categoriesMessage.AddHeroCard<string>(Resources.BotTexts.WelcomeTextCategories, new List<string>() { Resources.BotTexts.TechnicalQuestion, Resources.BotTexts.SearchWikipediaTerm, Resources.BotTexts.SearchThesaurusTerm, Resources.BotTexts.TranslateTerm });
 
                     // We need a client to send the message to the conversation, so we create a new one from the the current scope. 
                     // This is a new client, which sends to the user. It is decoupled from the main dialog
@@ -67,7 +68,8 @@ namespace SupportBot
                     {
                         var client = scope.Resolve<IConnectorClient>();
                         // Send the message to the conversation
-                        await client.Conversations.ReplyToActivityAsync(m);
+                        await client.Conversations.ReplyToActivityAsync(categoriesMessage);
+                        await client.Conversations.ReplyToActivityAsync(helpHintMessage);
                     }
                 }
             }
