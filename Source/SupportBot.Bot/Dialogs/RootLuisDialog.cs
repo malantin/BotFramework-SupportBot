@@ -14,7 +14,7 @@ namespace SupportBot.Dialogs
     /// The attribute LuisModel takes the ID of the services, the key and information about API level, region, etc.
     /// Please keep in mind that there a different LUIS regions and that you have a production and staging deployment of your LUIS service
     /// </summary>
-    [LuisModel("", "",LuisApiVersion.V2, "westeurope.api.cognitive.microsoft.com", true, false, false, false)]
+    [LuisModel("", "", LuisApiVersion.V2, "westeurope.api.cognitive.microsoft.com")]
     [Serializable]
     public class RootLuisDialog : LuisDialog<object>
     {

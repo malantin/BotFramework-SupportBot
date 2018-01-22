@@ -6,7 +6,7 @@ using System.Web;
 using Microsoft.Bot.Connector;
 using System.Threading.Tasks;
 
-namespace RoedlChatBot.Dialogs
+namespace SupportBot.Dialogs
 {
     /// <summary>
     /// This dialog provides help options, whenever the user mentions the world help

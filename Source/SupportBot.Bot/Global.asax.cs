@@ -2,7 +2,7 @@
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Builder.Scorables;
 using Microsoft.Bot.Connector;
-using RoedlChatBot.Dialogs;
+using SupportBot.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.Linq;

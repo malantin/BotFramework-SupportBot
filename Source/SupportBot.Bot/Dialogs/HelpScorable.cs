@@ -10,7 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace RoedlChatBot.Dialogs
+namespace SupportBot.Dialogs
 {
     /// <summary>
     /// This is the Scorable (https://blog.botframework.com/2017/07/06/scorables/) for the help dialog
